@@ -43,7 +43,7 @@ for n in range (2,11):
 print "Problem 3 solution follows:"
 n = 10
 triangular = 0
-for i in range (1,n+1):
+for i in range (n):
     triangular = + i
 print "Triangular number", n, "via loop:", triangular
 print "Triangular number", n, "via formula:", n*(n+1)/2
@@ -57,7 +57,7 @@ print "Triangular number", n, "via formula:", n*(n+1)/2
 print "Problem 4 solution follows:"
 n = 10
 f = 1
-for i in range (1,n+1):
+for i in range (n):
     f = f * i
 print f
 # ... write your code and comments here (and remove this line)
